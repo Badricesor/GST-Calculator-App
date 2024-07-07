@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST Calculator</title>
+    <link rel="stylesheet" type="text/css" href="decor.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1 >GST CALCULATOR</h1><br>
+    <hr color="#000">
+    <label for="price">Price :</label>
+    <input type="number" id="price"> <br>
+    <div class="gstbox">
+        <label>GST !</label>
+        <select  id="GST">
+            <option value="0.12">12%</option>
+            <option value="0.18">18%</option>
+            <option value="0.24">24%</option>
+        </select>
+    </div>   
+    <br>
+    <button onclick="total()">Total Price</button>
+</div>
+
+</html>
