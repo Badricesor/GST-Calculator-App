@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: border-box;
 }
 
@@ -15,12 +14,12 @@ body{
 }
 .container{
     padding: 2rem;
-    border: 6px solid #FFDB5C;
+    border: 6px solid #BBE9FF;
     border-radius: 0.6rem;
     text-align: center;
     color: #000;
     font-weight: bold;
-    background-color:   #C3FF93;
+    background-color:   #FFE9D0;
 }
 
 h1{
@@ -65,7 +64,7 @@ button{
     font-weight: 600;
     cursor: pointer;
     border: 2px solid #000;
-    background-color: #FFDB5C;
+    background-color: #BBE9FF;
     color: #000;
     font-size: .9rem;
     letter-spacing: 1.6px;
@@ -73,5 +72,5 @@ button{
 }
 
 button:hover{
-    background-color: #fbe38d;
+    background-color: #d4eefa;
 }
